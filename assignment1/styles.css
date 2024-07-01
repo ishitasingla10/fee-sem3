@@ -1,0 +1,23 @@
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.child-box {
+    background-color: lightgrey;
+    width: 380px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    float: left; /* Move the box to the left */
+    margin: 20px; /* Add some margin for spacing */
+}
+.child-box p {
+    margin: 0;
+}
