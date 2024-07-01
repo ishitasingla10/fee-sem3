@@ -1,0 +1,13 @@
+/**
+ * Created by Ashley on 25/10/2014.
+ */
+jQuery(document).ready(function ($) {
+    $('.cw-tooltip').tooltip();
+
+    // Flexslider
+    if ($.isFunction($.fn.flexslider)) {
+        $('#tweakme_slider').flexslider({
+            animation: "slide"
+        });
+    }
+});
