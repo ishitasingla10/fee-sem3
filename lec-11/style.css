@@ -1,0 +1,17 @@
+/* decendent combinator selector */
+ul li a{
+    color: red;
+    font-size: 20px;
+}
+/* child combinator selector */
+ol > li{
+    background-color: yellow;
+}
+/* adjacent combinator selector */
+h3+p {
+    border-top: 2px solid brown;
+}
+/* genral siblings */
+div~p{
+    background-color: blue;
+}

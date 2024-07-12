@@ -1,0 +1,28 @@
+/* simple selectors */
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+
+}
+
+/* id selectors- to show uniqueness */
+
+#superheros {
+    background-color: pink;
+    text-align: center;
+}
+.super{
+    color: green;
+}
+/* element selectors */
+h1 {
+    color: blue;
+    text-decoration: line-through;
+}
+/* attribute selectors */
+input[type=text]{
+    background-color: olive;
+}
+input[type=password]{
+    background-color: plum;
+}
