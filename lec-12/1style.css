@@ -1,0 +1,34 @@
+
+.a1{
+    text-align: center;
+}
+p{
+    /* text-align: center;
+    text-align: end;
+    text-align: left;
+    text-align: right;
+    text-align: start; */
+    /* text-align: justify; */
+    text-align: inherit;
+}
+a{
+    /* text-decoration: none; */
+    /* text-decoration: overline; */
+    font-size: 30px;
+    text-decoration: line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: aqua;
+}
+h3{
+    /* text-transform: capitalize; */
+    /* text-transform: uppercase; */
+    text-transform: lowercase;
+    /* letter-spacing: 10px; */
+    text-indent: 20px;
+    word-spacing: 5px;
+
+}
+h4{
+    text-shadow: 10px 5px 5px red;
+    /* color: transparent; */
+}

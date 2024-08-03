@@ -1,0 +1,16 @@
+#container{
+    background-color: lightblue;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    display: flex;
+    /* flex is used so that they can be in aignment fixed in a container otherwise it will go outside the box */
+    flex-direction: row-reverse;
+    /* now its 5 4 3 2 1 */
+    justify-content: center;
+}
+.items{
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+}
